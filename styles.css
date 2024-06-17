@@ -11,9 +11,14 @@ html{
     scroll-behavior: smooth;
 }
 
+body {
+    padding-top:;
+}
+
 section {
     background-color: rgb(245, 245, 245);
     transition: all 300ms ease;
+    min-height: 100vh;
 }
 
 input, textarea{
@@ -108,6 +113,10 @@ p{
     background-color: #242424;
 }
 
+nav {
+    z-index: 100;
+}
+
 nav, 
 .scroll,
 .header {
@@ -148,6 +157,7 @@ button{
 }
 
 .nav__wrapper{
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -223,7 +233,7 @@ button{
     width: 100%;
     max-width: 1000px;
     padding: 0px 30px;
-    z-index: 100;
+    z-index: 10;
 }
 
 .title{
