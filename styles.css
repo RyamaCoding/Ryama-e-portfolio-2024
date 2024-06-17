@@ -11,10 +11,6 @@ html{
     scroll-behavior: smooth;
 }
 
-body {
-    padding-top:;
-}
-
 section {
     background-color: rgb(245, 245, 245);
     transition: all 300ms ease;
@@ -507,6 +503,10 @@ button{
     justify-content: center;
 }
 
+.project{
+    margin-bottom: 16px;
+}
+
 .section__title{
     text-align: center;
     font-size: 48px;
@@ -515,6 +515,7 @@ button{
 
 .project__img{
     width: 100%;
+    object-fit: cover;
     transition: all 600ms ease;
 }
 
